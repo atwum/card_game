@@ -125,18 +125,23 @@ body {
 
  .card__body {
      padding: 30px;
+     display: flex;
  }
 .card__body h3{
     color: var(--dark);
     font-size: 24px;
     font-weight: 600;
     margin-bottom: 15px;
+    text-align: center;
+    position: relative;
 }
 
 .card__body p {
     color: var(--dark);
     font-size: 18px;
     line-height: 1.5;
+    text-align: center;
+    position: relative;
 }
 
 
